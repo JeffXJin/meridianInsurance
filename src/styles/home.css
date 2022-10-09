@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.homeContainer {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Header */
+.bodyHeader {
+    text-align: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 265px;
+    background-color: #1d2646;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.lottieHeader {
+    width: 40%;
+}
+
+.headerLeft {
+    text-align: center;
+    float: left;
+}
+
+.headerRight {
+    text-align: center;
+    float: right;
+}
+
+.headerText {
+    color: azure;
+}
+
+.welcomeText {
+    font-weight:400;
+}
+
+.headerTypical {
+    font-size: large;
+}
+
+.quoteData {
+    text-align: left;
+}
+
+.logo {
+    width: 80%;
+}
+
+/* Services */
+.gridContainer {
+    border-top: 3px solid #1d2646;
+    border-bottom: 3px solid #1d2646;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    display: grid;
+    column-gap: 0;
+    row-gap: 0;
+    margin-left: 7%;
+    margin-right: 7%;
+    grid-template-columns: auto auto auto;
+    /* background-color: #000000; */
+    /* border: 2px solid black; */
+    /* border-radius: 5px; */
+    margin-bottom: 20px;
+}
+
+.gridItem {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.user {
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.serviceBtn {
+    text-align: center;
+    width: 100%;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.serviceBtn:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.serviceType {
+    position: absolute;
+    top: 2.8vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+.lottie {
+    /* height: 100%; */
+}
+
+.bookBtn {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1800px) {
+    body {
+    }
+
+    .gridContainer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+  }
+
+
+@media only screen and (max-width: 1300px) {
+    body {
+    }
+
+    .homeContainer {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .gridContainer {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+  }
+
+@media only screen and (max-width: 660) {
+    .bodyHeader {
+        font-size: small;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,25 @@
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+.businessImage {
+    top: 0;
+    width:100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.imageText {
+    color: white;
+    font-weight: bolder;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}

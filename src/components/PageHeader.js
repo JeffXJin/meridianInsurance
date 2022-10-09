@@ -80,6 +80,13 @@ class PageHeader extends PureComponent {
           }
           {
             renderIf(!user)(
+              <Menu.Item key="/contact" style={{ float: 'right' }}>
+                <Link to={'/contact'}>Contact Us</Link>
+              </Menu.Item>
+            )
+          }
+          {
+            renderIf(!user)(
               <Menu.Item key="/login" style={{ float: 'right' }}>
                 <Link to={'/login'}>Login</Link>
               </Menu.Item>

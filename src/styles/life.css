@@ -1,0 +1,33 @@
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+.lifeImage {
+    top: 0;
+    width:100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.imageText {
+    color: white;
+    font-weight: bolder;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.contactSection {
+    margin-top: 20px;;
+}
+
+.contactSectionLink {
+    color: rgb(25, 81, 201);
+}
